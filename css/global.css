@@ -1,1 +1,11 @@
 @import url(./reset.css);
+
+.header-title{
+   
+}
+
+.main-content{
+   padding: 20px;
+    background-color: rgb(166, 166, 167);
+}
+
