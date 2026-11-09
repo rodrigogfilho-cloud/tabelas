@@ -12,11 +12,9 @@
 </head>
 
 <body>
+    <main class="main-content">
 
-
-    <main class="main-content decoration">
-
-        <header class="header-title decoration">
+        <header class="header-title">
             <h1>Tabelas</h1>
         </header>
 
@@ -25,46 +23,74 @@
         <h2>Notas 2-DS SESI</h2>
         <!-- Container para criar uma tabela -->
         <table class="table-aluno">
-            <!-- Criar linha da tabela (tr= table row) -->
+            <!-- Definir cabeçalho da tabela (thead = table header) -->
 
-            <tr>
-                <!-- Criar um cabeçalho da linha (th = table header) -->
-                <th>Aluno</th>
-                <th>Professor</th>
-                <th>Disciplina</th>
-                <th>Nota</th>
-            </tr>
 
-            <tr>
-                <!-- Inserir dados na linha (td = table data) -->
-                <td>Godoy</td>
-                <td>Alex</td>
-                <td>DS</td>
-                <td>6.7</td>
-            </tr>
 
-            <tr>
-                <!-- Inserir dados na linha (td = table data) -->
-                <td>Nini</td>
-                <td>Ivo</td>
-                <td>PEND</td>
-                <td>0.1</td>
-            </tr>
+            <thead>
+                <!-- Criar linha da tabela (tr= table row) -->
+                <tr>
+                    <!-- Criar um cabeçalho da linha (th = table header) -->
+                    <th>Aluno</th>
+                    <th>Professor</th>
+                    <th>Disciplina</th>
+                    <th>Nota</th>
+                </tr>
+            </thead>
 
-            <tr>
-                <!-- Inserir dados na linha (td = table data) -->
-                <td>Ivo</td>
-                <td>Guiza</td>
-                <td>Matemática</td>
-                <td>5</td>
-            </tr>
+            <!-- Definir o corpo da tabela (tbody = table body) -->
 
+            <tbody>
+
+                <tr>
+                    <!-- Inserir dados na linha (td = table data) -->
+                    <td>Godoy</td>
+                    <td>Alex</td>
+                    <td>DS</td>
+                    <td>6.7</td>
+                </tr>
+                <tr>
+                    
+                    <td>Nini</td>
+                    <td>Ivo</td>
+                    <td>PEND</td>
+                    <td>0.1</td>
+                </tr>
+                <tr>
+                    
+                    <td>Ivo</td>
+                    <td>Guiza</td>
+                    <td>Matemática</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                   
+                    <td>Palma</td>
+                    <td>Liliane</td>
+                    <td>Química</td>
+                    <td>0</td>
+                </tr>
+
+                <!-- Definir o rodapé da tabela com tfoot (table footer) -->
+
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Dados referentes ao 1º Semestre de 2026</td>
+                    </tr>
+                </tfoot>
+
+
+            </tbody>
+
+
+        </table>
+
+        <table class="table-">
             <tr>
-                <!-- Inserir dados na linha (td = table data) -->
-                <td>Palma</td>
-                <td>Liliane</td>
-                <td>Química</td>
-                <td>0</td>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
             </tr>
 
 
