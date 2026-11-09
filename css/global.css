@@ -8,23 +8,24 @@
    padding: 20px;
     background-color: rgb(206, 206, 206);
     
+    
 }
 
-.table-main{
+.table-aluno{
     margin-top: 15px;
     border: 1px solid black;
-    width: 100%;
+    width: 70%;
     border-collapse: collapse;
 }
 
-.table-main td {
+.table-aluno td {
     text-align: left;
     border: 1px solid black
 }
 
 /* Coloquei mais um th, porque queria que o th(titulo da tabela) ficasse centralizado e os dados da tabela ficasse á esquerda*/
 
-.table-main th {
+.table-aluno th {
     text-align: center;
     border: 1px solid black;
     background-color: rgb(160, 160, 160);
