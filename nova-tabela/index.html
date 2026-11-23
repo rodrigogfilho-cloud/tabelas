@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+</head>
+<body>
+    
+    <main>
+
+        <header>
+            <h1>Boletim Escolar</h1>
+            <p class="descricao">Acompanhamento das avaliações por disciplina</p>
+        </header>
+
+        <table class="tabela-notas">
+
+                <caption>Controle de Notas</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col" rowspan="2">Aluno</th>
+                        <th scope="col" rowspan="2">Professor</th>
+                        <th scope="col" rowspan="2">Disciplina</th>
+                        <th scope="colgroup" colspan="3">Notas</th>
+                    </tr>
+
+                    <tr>
+                        <th scope="col">Prova</th>
+                        <th scope="col">Projeto</th>
+                        <th scope="col">Seminário</th>
+                    </tr> 
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">IVO</th>
+                        <td>Juliano</td>
+                        <td>Filosofia</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">IVO</th>
+                        <td>Guiza</td>
+                        <td>matematica</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="3">Média</th>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+                </tfoot>
+
+
+        </table>
+
+    </main>
+</body>
+</html>
