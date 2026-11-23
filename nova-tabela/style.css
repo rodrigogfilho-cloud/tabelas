@@ -4,16 +4,66 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    font-family: Cambria, serif;
-    font-size: 35px;
+   
+}
+
+body{
+    padding: 40px 20px;
+    background-color: #f3f6fb;
+    color: #243247;
+    font-family: Helvetica, sans-serif;
+}
+
+.conteudo-principal{
+    width: min(100%, 900px);
+    margin: 0 auto;
+}
+
+.conteudo-principal__header h1{
+    margin-bottom:8px;
+    color: #173b70;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 .descricao{
-
+    margin-bottom: 24px;
+    color: #5d6b7e;
+    text-align: center  ;
 }
+
+/* Estilização da tabela */
 
 .tabela-notas{
-    
+    width: 100%;
+    border-collapse: collapse;
+    /* overflow: hidden; */
+    background-color: #ffffff;
+    box-shadow: 0 4px 14px rgba(25, 55, 95, 0.10);
 }
 
+.tabela-notas caption {
+    padding: 16px;
+    background-color: #173b70;
+    color: #ffffff;
+    font-size: 1.35rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabela-notas th, 
+.tabela-notas td {
+    padding: 14px 16px;
+    border: 1px solid #cbd5e1;
+    text-align: center;
+}
+
+.tabela-notas thead th{
+    background-color: #dce9f8;
+    color: #173b70;
+    font-weight: bold;    
+}
+
+.tabela-notas thead tr:first-child th[colspan] {
+    background-color: #c5daf2;
+}
