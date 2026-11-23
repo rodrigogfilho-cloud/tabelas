@@ -9,6 +9,15 @@
         body{
             height: 200vh;
         }
+        .video1{
+            border: 5px solid blueviolet;
+            }
+
+        .audio1{
+            border: 5px solid pink;
+            border-radius: 40px;
+        }
+        
     </style>
 </head>
 
@@ -25,6 +34,10 @@
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HiAzj9HZQnE?si=o1qEQBQdINwnjzrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+            <audio controls class="audio1">
+                <source src="./src/audio-sobre-doomsday.mp3" type="video/ogg">
+            </audio>
+
             
         </section>
         <section>
@@ -34,14 +47,22 @@
                 <source src="./src/Recording.mp4" type="video/mp4">
                 <source src="./src/Recording.ogg" type="video/ogg">
                 Seu navegador não suporta esse formato de vídeo</video>
+            <video class="video1" width="560"  height="315" controls>
+                <source src="./src/Recording.mp4" type="video/mp4">
+                <source src="./src/Recording.ogg" type="video/ogg">
+                Seu navegador não suporta esse formato de vídeo</video>
 
-            <audio controls >
+            <audio controls class="audio1">
                 <source src="./src/Recording.ogg" type="video/ogg">
             </audio>
 
             <!-- <video width="560" height="315" controls>
                 <source src="./src/Recording.ogg" type="video/ogg">
             </video> -->        <!-- TESTE PARA VER SE O AUDIO APARECE DENTRO DA TAG DE VÍDEO (video) -->
+
+        </section>
+        <section>
+            <h2>TESTES NOVOS 👿👿👿</h2>
 
         </section>
     </main>
