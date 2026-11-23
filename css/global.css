@@ -2,7 +2,15 @@
 @import url(./components/table-alunos.css);
 @import url(./components/tabela-controle.css);
  
-.header-title {}
+.header-title {
+    text-align: center;
+    
+}
+
+.header-title h1{
+    font-size: 60px;
+    font-family: Impact,  sans-serif;
+}
 
 .main-content {
     padding: 20px;
